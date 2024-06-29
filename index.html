@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bao Dep Trai</title>
+<link rel="stylesheet" href="body.css"/>
+<script src="https://kit.fontawesome.com/5468db3c8c.js" crossorigin="anonymous"></script>
+<style>
+body {
+	background-color: #000000;
+	padding: 150px;
+	color: white;
+}
+
+.video {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+}
+
+.avatar {
+	border-radius: 300px;
+	border-image-outset: black;
+	border: 3px solid #ffffff;
+}
+h3 {
+  font-family: "System-ui", cursive;
+  margin: 10px 0 8px 0;
+}
+
+p {
+	width: 450px;
+	font-family: "System-ui", cursive;
+}
+
+.button {
+  margin-bottom: 20px;
+  background-color: white;
+  border: 2px solid #ffffff;
+  width: 300px;
+  padding: 15px 0 15px 0;
+  border-radius: 100px;
+  font-family: "System-ui", cursive;
+  font-size: 15px;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  -webkit-box-shadow: 0px 11px 22px -9px #000000;
+  box-shadow: 0px 11px 22px -9px #000000;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+	<video class="video" loop="true" autoplay="autoplay" muted playsinline>
+		<source src="Video.mp4" type="video/mp4" />
+		<source src="Video.ogg" type="video/ogg" />
+		<source src="Video.webm" type="video/webm" />
+	</video>
+	<center>
+	<img class="avatar" src="https://img.upanh.tv/2024/06/19/3A93EB55-0608-4A8F-A8B0-737F6EC00F0F.jpg" width="250">
+	<h3>Đào Mạnh Gia Bảo</h3>
+	<p>Mình Là Bảo. Một Thằng Handsome Thích Nghịch HTML</p>
+		<button class="button" onclick="location.href = 'https://www.facebook.com/profile.php?id=100015777246102&mibextid=kFxxJD'"><i class="fab fa-facebook"></i>&nbsp; Facebook</button><br>
+		<button class="button" onclick="location.href = 'https://t.me/GBao35'"><i class="fab fa-telegram"></i>&nbsp; Telegram</button><br>
+		<button class="button" onclick="location.href = 'https://github.com/baoprovip1'"><i class="fab fa-github"></i>&nbsp; GitHub</button><br >
+		<footer>Bao ™ 2024</footer>
+</center>
+</body>
+</html>
